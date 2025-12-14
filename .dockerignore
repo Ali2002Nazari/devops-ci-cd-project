@@ -1,0 +1,22 @@
+#GIT
+.git
+.gitignore
+
+#PYTHON CACHE
+*.pyc
+*.pyo
+
+#VIRTUAL ENVIRONMENTS
+venv/
+.env/
+
+#EDITOR & OS FILES
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+#JENKINS
+jenkins_home/
+
+
