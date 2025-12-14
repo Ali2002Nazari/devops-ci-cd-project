@@ -4,7 +4,7 @@ pipeline {
 	stage('checkout') {
 	  steps {
 		git branch: 'main',
-		  url: 'https://github.com/Ali2002Nazari/devops-ci-cd-project.git
+		  url: 'https://github.com/Ali2002Nazari/devops-ci-cd-project.git'
 	  }
 	}
 	stage('Build Docker Image')
